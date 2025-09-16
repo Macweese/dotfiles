@@ -1,0 +1,32 @@
+# theme = "ao"
+# theme = "ayu_dark"
+# theme = "ayu_evolve"
+# theme = "boo_berry"
+# theme = "dark_high_contrast"
+# theme = "default"
+# theme = "doom_acario_dark"
+# theme = "dracula_at_night"
+# theme = "github_dark_tritanopia"
+# theme = "iroaseta"
+# theme = "kanawaga"
+# theme = "kanagawa-dragon"
+# theme = "modus_vivendi"
+# theme = "modus_vivendi_tinted"
+# theme = "modus_vivendi_tritanopia"
+# theme = "molokai"
+# theme = "seoul256-dark-hard"
+# theme = "serika-dark"
+# theme = "ttox"
+# theme = "vim_dark_high_contrast"
+# theme = "voxed"
+# theme = "yellowed"
+theme = "modus_vivendi_tinted"
+
+[editor]
+line-number = "relative"
+mouse = false
+
+# invert 'j' and 'k' in view mode
+[keys.normal]
+j = "move_line_up"
+k = "move_line_down"
