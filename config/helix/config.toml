@@ -26,7 +26,7 @@ theme = "modus_vivendi_tinted"
 line-number = "relative"
 mouse = false
 bufferline = "multiple"
-# ------------------------------------------------------- start chatgpt recommendation
+
 # Added later; configuring general editor configuration
 color-modes = true
 true-color = true
@@ -36,14 +36,14 @@ completion-timeout = 5
 auto-pairs = true
 auto-completion = true
 auto-format = true
-# ------------------------------------------------------- end chatgpt recommendation
+
 
 [editor.cursor-shape]
 # insert = "bar"
 normal = "block"
 # select = "underline"
 
-# ------------------------------------------------------- start chatgpt recommendation
+
 # Added later; configuring general editor configuration
 [editor.indent-guides]
 render = true
@@ -64,7 +64,7 @@ hidden = false
 left = ["mode", "spinner", "file-name", "file-modification-indicator"]
 center = ["version-control"]
 right = ["diagnostics", "selections", "position", "file-encoding"]
-# ------------------------------------------------------- end chatgpt recommendation
+
 
 [editor.soft-wrap]
 enable = true
