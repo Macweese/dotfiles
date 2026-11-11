@@ -25,8 +25,59 @@ theme = "modus_vivendi_tinted"
 [editor]
 line-number = "relative"
 mouse = false
+bufferline = "multiple"
+# ------------------------------------------------------- start chatgpt recommendation
+# Added later; configuring general editor configuration
+color-modes = true
+true-color = true
+cursorline = true
+completion-trigger-len = 2
+completion-timeout = 5
+auto-pairs = true
+auto-completion = true
+auto-format = true
+# ------------------------------------------------------- end chatgpt recommendation
+
+[editor.cursor-shape]
+# insert = "bar"
+normal = "block"
+# select = "underline"
+
+# ------------------------------------------------------- start chatgpt recommendation
+# Added later; configuring general editor configuration
+[editor.indent-guides]
+render = true
+character = "┊"
+skip-levels = 1
+[editor.lsp]
+enable = true
+display-messages = true
+display-inlay-hints = true
+auto-signature-help = true
+snippets = true
+[editor.inline-diagnostics]
+cursor-line = "warning"
+other-lines = "error"
+[editor.file-picker]
+hidden = false
+[editor.statusline]
+left = ["mode", "spinner", "file-name", "file-modification-indicator"]
+center = ["version-control"]
+right = ["diagnostics", "selections", "position", "file-encoding"]
+# ------------------------------------------------------- end chatgpt recommendation
+
+[editor.soft-wrap]
+enable = true
 
 # invert 'j' and 'k' in view mode
 [keys.normal]
 j = "move_line_up"
 k = "move_line_down"
+
+[keys.normal.m]
+o = "select_textobject_around" # original keybind: ma
+a = "surround_add" # original keybind: mo
+
+[keys.select]
+"}" = "goto_next_paragraph"
+"{" = "goto_prev_paragraph"
